@@ -28,7 +28,7 @@ struct ExtraWorkData
 	*	0x04: World of Warcraft
 	*/
 	std::uint16_t length;
-	char buffer[1024];
+	char buffer[4096];
 };
 
 BOOL __fastcall ExtraWork(ExtraWorkData *extrawork, int unused);

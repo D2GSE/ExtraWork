@@ -18,7 +18,7 @@ struct ExtraWorkData
 {
 	std::uint16_t game;
 	std::uint16_t length;
-	char buffer[1024];
+	char buffer[4096];
 };
 
 using ExtraWorkProc = BOOL __fastcall(ExtraWorkData *);
